@@ -33,7 +33,7 @@ int main()
 	for (int row = 0; row < size; row++)
 		if (image[row][middle_col] == 1) target_row = row;
 	cout << target_row << endl;						//----Show number of row with line
-	//------Binary search of the line begining
+	//------Binary search of the line beginning
 	int left_point = 1;
 	int right_point = size - 2;
 	int pointer = middle_col;
